@@ -1,0 +1,69 @@
+table {
+  width: 90%;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem;
+}
+
+.loading-spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.addUser {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  border-radius: 2rem;
+  background-color: rgb(236, 57, 57);
+  color: white;
+  width: 4rem;
+  height: 4rem;
+  border-color: white;
+}
+
+.buscar {
+  display: flex;
+  justify-content: end;
+  margin: 20px 10px 20px 10px;
+}
+
+.buscar-title {
+  display: flex;
+  justify-content: end;
+  margin-top: -2rem;
+  margin-right: 2rem;
+}
+.resultado {
+  width: 95%;
+  margin: 20px auto;
+
+  .titulo {
+    font-weight: bold;
+  }
+
+  .mat-card-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mat-card-title {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+}
+
+.cartaoBusca{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
